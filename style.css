@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main, header{
+    background-color: hsl(219, 30%, 18%);
+    color:hsl(0, 0%, 100%);
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+
+.center-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-style{
+
+    
+    width: 65vw;
+    height: 10vh;
+    padding: 5px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 7vh;
+    align-items: center;
+}
+
+.header-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50vw;
+    height: 5vh;
+    list-style: none;
+    color: hsl(0, 0%, 100%);
+}
+
+
+.header-list-item{
+    cursor: pointer;
+}
+
+.header-list-item:hover{
+    text-decoration-line: underline;
+}
+
+.div-logo{
+    width: 16vw;
+    height: 3vh;
+}
+
+.div-img{
+    width: 70vw;
+    height: 30vh;
+}
+
+
+/*Primeira seccao */
+
+.first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+    height: 70vh;
+    background-color: hsl(219, 30%, 18%);
+    background-image: url(images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.first-section-title{
+  
+    width: 70vw;
+    height: 7vh;
+    padding: 5px;
+}
+
+
+.first-section-button{
+    background-color: hsl(198, 60%, 50%);
+    width: 50vw;
+    height: 5vh;
+    border: none;
+    border-radius: 20px;
+    color:hsl(0, 0%, 100%);
+}
+
+/* Segunda seccao */
+
+.secund-section{
+    height: 110vh;
+    justify-content: space-around;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.secund-section-div{
+    
+    height: 25vh;
+}
+
+.secund-section-div-title{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+/* Terceira seccao*/
+
+.third-section{
+    height: 65vh;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.third-section-text{
+
+    
+    width: 70vw;
+    height: 10vh;
+    padding: 5px;
+}
+
+.third-section-a{
+    align-self: flex-start;
+    margin-left: 6px;
+    color: hsl(176, 68%, 64%);
+    flex-direction: row;
+    height: 3vh;
+    text-decoration: none;
+    border-bottom: 1px solid hsl(176, 68%, 64%);;
+}
+
+.third-section-a-img{
+    margin-left: 5px;
+}
