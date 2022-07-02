@@ -3,7 +3,11 @@
     padding: 0;
 }
 
-main, header{
+main{
+    background-color: hsl(218, 28%, 13%);
+    color:hsl(0, 0%, 100%);
+}
+header{
     background-color: hsl(219, 30%, 18%);
     color:hsl(0, 0%, 100%);
 }
@@ -94,13 +98,20 @@ header{
 }
 
 
-.first-section-button{
+.button-style{
     background-color: hsl(198, 60%, 50%);
     width: 50vw;
     height: 5vh;
     border: none;
     border-radius: 20px;
     color:hsl(0, 0%, 100%);
+}
+
+.button-white{
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 4vw;
+    width: 46vw;
+    color:hsl(218, 28%, 13%);
 }
 
 /* Segunda seccao */
@@ -149,3 +160,88 @@ header{
 .third-section-a-img{
     margin-left: 5px;
 }
+
+/*Quarta seccao*/
+
+.forth-section{
+    height: 90vh;
+    position: relative;
+    justify-content: space-around;
+    margin-top: 20vh;
+    padding-bottom: 25vh;
+}
+.forth-section-icon{
+    position: absolute;
+    align-self: flex-start;
+    top: 0;
+    width: 5vw;
+    height: 2vh;
+    margin-left: 6.5vh;
+}
+.forth-section-div{
+    background-color: hsl(219, 30%, 18%);
+    width: 60vw;
+    height: 15vh;
+    border: none;
+    padding: 30px;
+    border-radius: 2px;
+}
+.forth-section-div-img{
+    display: flex;
+    width: 43vw;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.card-img{
+    width: 8vw;
+    height: 4.5vh;
+    border-radius: 50%;
+}
+.forth-section-div-img-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Quinta seccao*/
+
+.fifth-section{
+    display: flex;
+    background-color:  hsl(217, 28%, 15%);
+    position: absolute;
+    top: 95vh;
+    flex-direction: column;
+    height: 40vh;
+    width: 75vw;
+    border: none;
+    border-radius: 7px;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    
+}
+
+.fifth-section-div{
+    
+    display: flex;
+    flex-direction: column;
+    height: 13vh;
+    justify-content: space-between;
+}
+
+/*----------------Rodapé --------*/
+
+footer{
+    height: 90vh;
+    background-color: hsl(216, 53%, 9%);
+    color: hsl(0, 0%, 100%);
+    padding-top: 30vh;
+    
+}
+
+.div-logo-footer{
+    width: 35vw;
+    height: 8vh;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
