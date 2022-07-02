@@ -239,8 +239,24 @@ footer{
 }
 
 .div-logo-footer{
-    width: 35vw;
-    height: 8vh;
+    width: 36vw;
+    height: 7vh;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container-div2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: red;
+    width: 32vw;
+    height: 6vh;
+    justify-content: space-between
+    ;
 }
 
 .attribution { font-size: 11px; text-align: center; }
